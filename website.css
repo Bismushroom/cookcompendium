@@ -1,0 +1,56 @@
+*{
+    background-color: rgb(247, 247, 247);
+    padding-left: 70px;
+    padding-right: 70px;
+    font-family: "arial";
+}
+
+
+h1{
+    background-color: #E6F899;
+    color: #FF78D5;
+    font-size: 60px;
+    text-align: center;
+    padding: 20px;
+    font: Fantasy;
+}
+
+p{
+
+}
+
+.img1{
+
+}
+
+.PDF{
+    border: 2px dashed #FF78D5;
+    border-radius: 20px;
+    padding: 10px;
+    width: 230px;
+    height: 50px;
+    gap: 10px;
+    display: inline-grid;
+    grid-template-areas:
+    'PDFlink PDFicon';
+    justify-content: start;
+}
+
+.PDFlink{
+    margin: 0px -70px 0px;
+    float: left;
+    padding: 3px 0px 0px
+}
+
+.PDFicon{
+    width: 30px;
+    height: 40px;
+    padding: 10px 0px 10px;
+}
+
+.cookbook{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
